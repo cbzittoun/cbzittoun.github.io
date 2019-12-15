@@ -12,6 +12,36 @@
 
 }
 
+@font-face {
+  font-family: "imprint";
+  src: url("../fonts/imprint/font-face/1565d5efc17eddf6e99a936e3aa69d31.eot"); /* IE9*/
+  src: url("../fonts/imprint/font-face/1565d5efc17eddf6e99a936e3aa69d31.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("../fonts/imprint/font-face/1565d5efc17eddf6e99a936e3aa69d31.woff2") format("woff2"), /* chrome、firefox */
+  url("../fonts/imprint/font-face/1565d5efc17eddf6e99a936e3aa69d31.woff") format("woff"), /* chrome、firefox */
+  url("../fonts/imprint/font-face/1565d5efc17eddf6e99a936e3aa69d31.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url("../fonts/imprint/font-face/1565d5efc17eddf6e99a936e3aa69d31.svg#Imprint MT Shadow V2") format("svg"); /* iOS 4.1- */
+}
+
+@font-face {
+  font-family: "iowan";
+  src: url("../fonts/iowan/font-face/25460aab6bb2d2b831914bacead7aa04.eot"); /* IE9*/
+  src: url("../fonts/iowan/font-face/25460aab6bb2d2b831914bacead7aa04.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("../fonts/iowan/font-face/25460aab6bb2d2b831914bacead7aa04.woff2") format("woff2"), /* chrome、firefox */
+  url("../fonts/iowan/font-face/25460aab6bb2d2b831914bacead7aa04.woff") format("woff"), /* chrome、firefox */
+  url("../fonts/iowan/font-face/25460aab6bb2d2b831914bacead7aa04.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url("../fonts/iowan/font-face/25460aab6bb2d2b831914bacead7aa04.svg#Iowan Old Style W01 Roman") format("svg"); /* iOS 4.1- */
+}
+
+@font-face {
+  font-family: "trattatello";
+  src: url("../fonts/trattatello/font-face/05289e866fe7e1e99d27a7a31f8d3b66.eot"); /* IE9*/
+  src: url("../fonts/trattatello/font-face/05289e866fe7e1e99d27a7a31f8d3b66.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("../fonts/trattatello/font-face/05289e866fe7e1e99d27a7a31f8d3b66.woff2") format("woff2"), /* chrome、firefox */
+  url("../fonts/trattatello/font-face/05289e866fe7e1e99d27a7a31f8d3b66.woff") format("woff"), /* chrome、firefox */
+  url("../fonts/trattatello/font-face/05289e866fe7e1e99d27a7a31f8d3b66.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url("../fonts/trattatello/font-face/05289e866fe7e1e99d27a7a31f8d3b66.svg#Trattatello") format("svg"); /* iOS 4.1- */
+}
+
 [data-icon]:before {
   font-family: "untitled-font-1" !important;
   content: attr(data-icon);
