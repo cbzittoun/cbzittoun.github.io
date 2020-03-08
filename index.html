@@ -24,7 +24,7 @@
 	<link href="01-homepage/css/styles.css" rel="stylesheet">
 	
 	<link href="01-homepage/css/responsive.css" rel="stylesheet">
-	
+    	
 </head>
 <body>
 	
@@ -35,7 +35,7 @@
 			<div class="menu-nav-icon" data-nav-menu="#main-menu"><i class="icon icon-bars"></i></div>
 			
 			<ul class="main-menu visible-on-click" id="main-menu">
-				<li><a href="index.html">HOME</a></li>
+                <li><a href="index.html"><span tkey="home">HOME</span></a></li>
 <!--
 				<li class="drop-down"><a href="#!">OUR STORIES<i class="icon icon-caret-down"></i></a>
 				
@@ -56,12 +56,13 @@
 				
 <!--				<li><a href="03-regular-page.html">THE WEDDING</a></li>-->
 <!--				<li><a href="#">GALLERY</a></li>-->
-				<li><a href="02-rsvp.html">RSVP</a></li>
+				<li><a href="location.html"><span tkey="locations">LOCATIONS</span></a></li>
+				<li><a href="02-rsvp.html"><span tkey="rsvp">RSVP</span></a></li>
 <!--                <li><img src="images/flag/es.svg" style="width: 25px"/></li>-->
-                <li><img src="images/flag/ro.svg" style="width: 25px"/></li>
-                <li><img src="images/flag/fr.svg" style="width: 25px"/></li>
+                <li><a href="#" onclick="changeLang('ro')" class="language"><img src="images/flag/ro.svg" style="width: 25px"/></a></li>
+                <li><a href="#" onclick="changeLang('fr')" class="language"><img src="images/flag/fr.svg" style="width: 25px"/></a></li>
 <!--                <li><img src="images/flag/it.svg" style="width: 25px"/></li> -->
-				<li><img src="images/flag/gb.svg" style="width: 25px"/></li>
+				<li><a href="#" onclick="changeLang('en')" class="language"><img src="images/flag/gb.svg" style="width: 25px"/></a></li>
 			</ul><!-- main-menu -->
 			
 		</div><!-- container -->
@@ -72,10 +73,9 @@
 		<div class="display-table center-text">
 			<div class="display-table-cell">
 				<div class="slider-content">
-				
-					<i class="small-icon icon icon-tie"></i>
-					<h1 class="title">Ioana & Camille</h1>
-                    <h5 class="date">1st AUGUST 2020</h5>
+				    <br><br><br><br>
+                    <h1 class="title"><span tkey="ioana-n-camille">Ioana & Camille</span></h1>
+                    <h5 class="date"><span tkey="date">1st AUGUST 2020</span></h5>
 
 					
 				</div><!-- slider-content-->
@@ -83,92 +83,8 @@
 		</div><!-- display-table-->
 	</div><!-- main-slider -->
 	
-	
-	<section class="section story-area center-text">
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-1"></div>
-				<div class="col-sm-10">
-					
-<!--
-					<div class="heading">
-						<h2 class="title">Our Story</h2>
-						<span class="heading-bottom"><i class="icon icon-star"></i></span>
-					</div>
--->
-                    <div class="heading">
-                        <img src="images/flower/couronne.png" style="width: 70%"></img>
-					</div>
-
-					<p class="desc margin-bottom">
-                        We are looking forward to gather and celebrate our wedding with you.<br>
-                        We hope this will be a memorable day.
-                    </p>
-					
-				</div><!-- col-sm-10 -->
-			</div><!-- row -->
-		</div><!-- container -->
-	</section><!-- section -->
     
-    	
-	<section class="section w-details-area center-text">
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-12">
-					
-					<div class="heading">
-						<h2 class="title">Events</h2>
-						<span class="heading-bottom"><i class="icon icon-star"></i></span>
-					</div>
-					
-					<div class="wedding-details margin-bottom">
-						
-						<div class="w-detail left">
-							<h4 class="title">FRIDAY 31st JULY 2020</h4>
-                            <p>Swimming Pool, Bucharest</p>
-                            <br>
-                            <i class="icon"><img src="images/beer.svg" class="w-detail-icon"></i>
-							<h4 class="title">Welcome Dinner</h4>
-							<p>from 19:00</p>
-						</div><!-- w-detail -->			
-                        
-						<div class="w-detail right">
-<!--							<i class="icon icon-ciurclke"></i>-->
-                            <h4 class="title">SATURDAY 1st AUGUST 2020</h4>
-                            <p>Snagov Palace</p>
-                            <br>
-                            <i class="icon"><img src="images/dove.svg" class="w-detail-icon"></i>
-							<h4 class="title">Ceremony</h4>
-							<p>15:00 - 16:30</p>
-                            <br>
-<!--							<i class="icon icon-wine-glass"></i>-->
-                            <i class="icon"><img src="images/cocktail.svg" class="w-detail-icon"></i>
-							<h4 class="title">Cocktail</h4>
-                            <p>16:30 - 19:00</p>
-                            <br>
-                            <i class="icon"><img src="images/romantic.svg" class="w-detail-icon"></i>
-							<h4 class="title">Dinner</h4>
-							<p>from 17:00</p>
-                        </div><!-- w-detail -->
-						
-						<div class="w-detail left">
-                            <h4 class="title">SUNDAY 2nd AUGUST 2020</h4>
-                            <p>Snagov Palace</p>
-<!--							<i class="icon icon-cake"></i>-->
-                            <br>
-                            <i class="icon"><img src="images/sunset.svg" class="w-detail-icon"></i>
-							<h4 class="title">Brunch</h4>
-							<p>11:00 - 15:00</p>
-						</div><!-- w-detail -->
-						
-					</div><!-- wedding-details -->
-					
-				</div><!-- col-sm-10 -->
-			</div><!-- row -->
-		</div><!-- container -->
-	</section><!-- section -->
-	
-	<section class="section center-text" style="background-image: url(images/flower/pattern-time.jpg); background-size: 500px 500px; ">
+    <section class="section center-text" style="background-image: url(images/flower/pattern-time.jpg); background-size: 500px 500px; ">
 		<div class="container">
 			<div class="row">
 			
@@ -192,7 +108,91 @@
 			</div><!-- row -->
 		</div><!-- container -->
 	</section><!-- section -->
+	
+	<section class="section story-area center-text">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-1"></div>
+				<div class="col-sm-10">
+					
+<!--
+					<div class="heading">
+						<h2 class="title">Our Story</h2>
+						<span class="heading-bottom"><i class="icon icon-star"></i></span>
+					</div>
+-->
+                    <div class="heading">
+                        <img src="images/flower/couronne.png" style="width: 70%"></img>
+					</div>
 
+					<p class="message" tkey="intro">
+                        We are looking forward to gather and celebrate our wedding with you.<br>
+                        We hope this will be a memorable day.
+                    </p>
+					
+				</div><!-- col-sm-10 -->
+			</div><!-- row -->
+		</div><!-- container -->
+	</section><!-- section -->
+    
+    	
+	<section class="section w-details-area center-text" style="background-image: url(images/flower/pattern-flower2.jpg); background-size: 750px 750px; ">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					
+					<div class="heading">
+						<h2 class="title" tkey="events">Events</h2>
+						<span class="heading-bottom"><i class="icon icon-star"></i></span>
+					</div>
+					
+					<div class="wedding-details margin-bottom">
+						
+						<div class="w-detail left">
+                            <h4 class="title"><span  tkey="event-fri-date">FRIDAY 31st JULY 2020</span></h4>
+                            <p><span class="location">Casa Universitarilor</span><br>Strada Dionisie Lupu 46, Bucharest</p>
+                            <br>
+                            <i class="icon"><img src="images/beer.svg" class="w-detail-icon"></i>
+                            <h4 class="title"><span  tkey="event-fri-dinner">Welcome Dinner</span></h4>
+                            <p><span tkey="from">from</span> 19:00</p>
+						</div><!-- w-detail -->			
+                        
+						<div class="w-detail right">
+<!--							<i class="icon icon-ciurclke"></i>-->
+                            <h4 class="title"><span  tkey="event-sat-date">SATURDAY 1st AUGUST 2020</span></h4>
+                            <p><span class="location" tkey="event-snagov">Snagov Palace</span></p>
+                            <br>
+                            <i class="icon"><img src="images/dove.svg" class="w-detail-icon"></i>
+                            <h4 class="title"><span  tkey="event-sat-ceremony">Ceremony</span></h4>
+							<p>16:00 - 17:00</p>
+                            <br>
+<!--							<i class="icon icon-wine-glass"></i>-->
+                            <i class="icon"><img src="images/cocktail.svg" class="w-detail-icon"></i>
+                            <h4 class="title"><span  tkey="event-sat-cocktail">Cocktail</span></h4>
+                            <p>17:30 - 19:00</p>
+                            <br>
+                            <i class="icon"><img src="images/romantic.svg" class="w-detail-icon"></i>
+                            <h4 class="title"><span  tkey="event-sat-dinner">Dinner</span></h4>
+                            <p><span tkey="from">from</span> 19:30</p>
+                        </div><!-- w-detail -->
+						
+						<div class="w-detail left">
+                            <h4 class="title"><span  tkey="event-sun-date">SUNDAY 2nd AUGUST 2020</span></h4>
+                            <p><span class="location" tkey="event-snagov">Snagov Palace</span></p>
+<!--							<i class="icon icon-cake"></i>-->
+                            <br>
+                            <i class="icon"><img src="images/sunset.svg" class="w-detail-icon"></i>
+                            <h4 class="title"><span  tkey="event-sun-brunch">Brunch</span></h4>
+                            <p><span tkey="from">from</span> 11:00</p>
+						</div><!-- w-detail -->
+						
+					</div><!-- wedding-details -->
+					
+				</div><!-- col-sm-10 -->
+			</div><!-- row -->
+		</div><!-- container -->
+	</section><!-- section -->
+	
 
 <!--
 	<section class="section ceremony-area center-text">
@@ -236,29 +236,41 @@
 					
 					<div class="image-gallery">
 						<div class="row">
+                            
+                            <div class="col-md-4 col-sm-6">
+								<a href="images/us/IMG_20190923_214609.jpg" data-fluidbox><img class="margin-bottom" src="images/us/IMG_20190923_214609.jpg" alt="Gallery Image"></a>
+							</div><!-- col-sm-4 -->
 					
 							<div class="col-md-4 col-sm-6">
-								<a href="images/gallery-1-600x400.jpg" data-fluidbox><img class="margin-bottom" src="images/gallery-1-600x400.jpg" alt="Gallery Image"></a>
+								<a href="images/us/Cam%20&%20Ioana%201.jpg" data-fluidbox><img class="margin-bottom" src="images/us/Cam%20&%20Ioana%201.jpg" alt="Gallery Image"></a>
+							</div><!-- col-sm-4 -->
+										
+							<div class="col-md-4 col-sm-6">
+								<a href="images/us/IMG_1817.JPG" data-fluidbox><img class="margin-bottom" src="images/us/IMG_1817.JPG" alt="Gallery Image"></a>
+							</div><!-- col-sm-4 -->
+							                        
+							<div class="col-md-4 col-sm-6">
+								<a href="images/us/IMG_20190420_191109.jpg" data-fluidbox><img class="margin-bottom" src="images/us/IMG_20190420_191109.jpg" alt="Gallery Image"></a>
 							</div><!-- col-sm-4 -->
 							
 							<div class="col-md-4 col-sm-6">
-								<a href="images/gallery-2-600x400.jpg" data-fluidbox><img class="margin-bottom" src="images/gallery-2-600x400.jpg" alt="Gallery Image"></a>
+								<a href="images/us/Cam%20&%20Ioana%206.jpg" data-fluidbox><img class="margin-bottom" src="images/us/Cam%20&%20Ioana%206.jpg" alt="Gallery Image"></a>
 							</div><!-- col-sm-4 -->
-							
-							<div class="col-md-4 col-sm-6">
-								<a href="images/gallery-3-600x400.jpg" data-fluidbox><img class="margin-bottom" src="images/gallery-3-600x400.jpg" alt="Gallery Image"></a>
+                            
+                            <div class="col-md-4 col-sm-6">
+								<a href="images/us/IMG_4559.JPG" data-fluidbox><img class="margin-bottom" src="images/us/IMG_4559.JPG" alt="Gallery Image"></a>
 							</div><!-- col-sm-4 -->
-							
-							<div class="col-md-4 col-sm-6">
-								<a href="images/gallery-4-600x400.jpg" data-fluidbox><img class="margin-bottom" src="images/gallery-4-600x400.jpg" alt="Gallery Image"></a>
+                            
+                            <div class="col-md-4 col-sm-6">
+								<a href="images/us/Cam%20&%20Ioana%2012.jpg" data-fluidbox><img class="margin-bottom" src="images/us/Cam%20&%20Ioana%2012.jpg" alt="Gallery Image"></a>
+							</div><!-- col-sm-4 -->	
+                            
+                            <div class="col-md-4 col-sm-6">
+								<a href="images/us/IMG_2835.JPG" data-fluidbox><img class="margin-bottom" src="images/us/IMG_2835.JPG" alt="Gallery Image"></a>
 							</div><!-- col-sm-4 -->
-							
-							<div class="col-md-4 col-sm-6">
-								<a href="images/gallery-5-600x400.jpg" data-fluidbox><img class="margin-bottom" src="images/gallery-5-600x400.jpg" alt="Gallery Image"></a>
-							</div><!-- col-sm-4 -->
-							
-							<div class="col-md-4 col-sm-6">
-								<a href="images/gallery-1-600x400.jpg" data-fluidbox><img class="margin-bottom" src="images/gallery-1-600x400.jpg" alt="Gallery Image"></a>
+							                            
+                            <div class="col-md-4 col-sm-6">
+								<a href="images/us/R%C3%A9ception080.jpg" data-fluidbox><img class="margin-bottom" src="images/us/R%C3%A9ception080.jpg" alt="Gallery Image"></a>
 							</div><!-- col-sm-4 -->
 							
 						</div><!-- row -->
@@ -282,17 +294,17 @@
 					
 					<div class="col-sm-10">
 						<div class="heading">
-							<h3 class="title">Contact Us</h3>
+                            <h3 class="title"><span tkey="contact-us">Contact Us</span></h3>
 							<i class="icon icon-star"></i>
 						</div>
 						
 						<div class="margin-bottom">
-							<p>If you have any questions, please send us an email:</p>
-							<h6><a href="mailto:info@ioanacamille.com" class="phone">info@ioanacamille.com</a></h6>
-                            <p>call us or send us a whatsapp message:</p>
-							<h6><a href="tel:+44-7-541-768-256" class="phone">+44 7 541 768 256</a></h6>
-                            <p>Our postal address is:</p>
-                            <h5>78 Warwick Gardens<br>Flat B<br>London<br>W14 8PR<br>United Kingdom</h5>
+                            <p><span tkey="contact-email">If you have any questions, please send us an email:</span></p>
+							<h6><a href="mailto:info@ioanacamille.com" class="phone">contact@ioanacamille.com</a></h6>
+                            <p><span tkey="contact-phone">call us or send us a whatsapp message:</span></p>
+							<h6><a href="tel:+44-7-541-768-256" class="phone">+33 7 67 67 49 69</a></h6>
+                            <p><span tkey="contact-post">Our postal address is:</span></p>
+                            <h5>1 rue Lord Byron<br>Appartement 401<br>Paris, 75008<br>France</h5>
 							
 						</div><!-- margin-bottom -->
 					</div><!-- col-sm-10 -->
@@ -327,7 +339,7 @@
 -->
 	
 	
-	<!-- SCIPTS -->
+	<!-- SCRIPTS -->
 	
 	<script src="common-js/jquery-3.1.1.min.js"></script>
 	
@@ -339,8 +351,9 @@
 	
 	<script src="common-js/jquery.fluidbox.min.js"></script>
 	
-	
-	<script src="common-js/scripts.js"></script>
+    <script src="common-js/scripts.js"></script>
+    
+    <script src="common-js/lang.js"></script>
 	
 </body>
 </html>

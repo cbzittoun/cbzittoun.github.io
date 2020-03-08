@@ -1,0 +1,23 @@
+{
+    "home":                 "ACCUEIL",
+    "locations":            "LIEUX",
+    "rsvp":                 "RÉPONSE",
+    "ioana-n-camille":      "Ioana et Camille",
+    "date":                 "1er AOÛT 2020",
+    "intro":                "Nous sommes impatients d'être tous réunis et de célébrer notre mariage avec vous.<br>Nous espérons que ce sera une journée inoubliable.",
+    "events":               "Programme",
+    "from":                 "à partir de",
+    "event-fri-date":       "VENDREDI 31 JUILLET 2020",
+    "event-fri-dinner":     "Dîner de Bienvenue",
+    "event-sat-date":       "SAMEDI 1er AOÛT 2020",
+    "event-snagov":         "Palais Snagov",
+    "event-sat-ceremony":   "Cérémonie",
+    "event-sat-cocktail":   "Cocktail",
+    "event-sat-dinner":     "Dîner Placé",
+    "event-sun-date":       "DIMANCHE 2 AOÛT 2020",
+    "event-sun-brunch":     "Brunch",
+    "contact-us":           "Contactez-nous",
+    "contact-email":        "Pour nous contacter, veuillez nous envoyer un email à:",
+    "contact-phone":        "nous appeler ou nous envoyer un message au:",
+    "contact-post":         "Notre adresse postale:"
+}

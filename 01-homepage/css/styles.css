@@ -50,7 +50,7 @@ h1,h2,h3,h4,h5,h6{ line-height: 1.5; font-weight: inherit; }
 
 h1{ font-family: 'imprint'; }
 
-p{ line-height: 1.6; font-size: 1.3em; font-weight: 400; color: #555; }
+p{ line-height: 1.6; font-size: 1.em; font-weight: 400; color: #555; }
 
 h1{ font-size: 3em; line-height: 1; }
 h2{ font-size: 3.5em; line-height: 1.1; }
@@ -198,6 +198,8 @@ header .main-menu{ font-weight: 500; float: right; margin: 0px -15px; }
 header .main-menu > li > a{ height: 50px; line-height: 46px; padding: 0 15px; border: 2px solid transparent; 
 	border-radius: 2px; background: transparent; }
 
+header .main-menu .language{ padding: 0 0px;}
+
 header .visible.main-menu{ display: block; }
 
 
@@ -247,11 +249,11 @@ header .main-menu li.drop-down a.mouseover + ul.drop-down-menu{ display: block;
 4. SLIDER
 --------------------------------- */
 
-/*.main-slider{ height: 50vh; position: relative; z-index: 1; background-image: url(../../images/slider-1-1600x900.jpg); background-size: cover; color: #fff; } */
-.main-slider{ height: 30vh; position: relative; z-index: 1; } 
+.main-slider{ height: 400px; position: relative; z-index: 1; background-image: url(/images/us/banner3.jpg); background-size: cover; background-position: center center; color: #fff; } 
+
 
 .main-slider:after{ content:''; position: absolute; top: 0; bottom: 0; left: 0; right: 0; 
-	z-index: -1; background: rgba(0,0,0,.3); }
+	z-index: -1; background: rgba(0,0,0,.2); }
 
 .slider-content .date{ margin: 10px 0 0; }
 
@@ -270,6 +272,8 @@ header .main-menu li.drop-down a.mouseover + ul.drop-down-menu{ display: block;
 
 .story-area:after{ content: ''; position: absolute; top: 0; bottom: 0; left: 0; right: 0; z-index: -1;
 	opacity: .8; background: url(../../images/Background_Circle.png); }
+
+.message{font-size: 28px}
 
 
 /* ---------------------------------
@@ -392,3 +396,6 @@ footer .email-area .submit-btn:hover{ background: #000; color: #E55D73; }
 
 
 footer .copyright{ padding: 20px 0 30px; }
+.location {
+    font-size: 30px
+}
